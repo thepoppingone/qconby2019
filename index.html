@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>HATS #1</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -25,14 +25,35 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown>
+						<textarea data-template>
+						## Qcon NY 2019 Brownbag #1 
+						Selected Learnings from Qcon
+						</textarea>
+				</section>
+				<section>
+					<img height="180px" style="border:0 solid" src="https://www.stickpng.com/assets/images/5cb480b85f1b6d3fbadece78.png"/>
+					<p>How did Slack scale its Infra Engineering Team?</p>
+				</section>
+				<section>
+					<p class="fragment grow">grow</p>
+					<p class="fragment shrink">shrink</p>
+					<p class="fragment fade-out">fade-out</p>
+					<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+					<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+					<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+					<p class="fragment highlight-current-blue">blue only once</p>
+					<p class="fragment highlight-red">highlight-red</p>
+					<p class="fragment highlight-green">highlight-green</p>
+					<p class="fragment highlight-blue">highlight-blue</p>
+				</section>
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
 
 		<script>
+
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
@@ -44,6 +65,7 @@
 					{ src: 'plugin/highlight/highlight.js', async: true }
 				]
 			});
+			Reveal.configure({ hash: true });
 		</script>
 	</body>
 </html>
