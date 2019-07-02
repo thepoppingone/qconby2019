@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/extras.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -31,6 +32,7 @@
 						Selected Learnings from Qcon
 						</textarea>
 				</section>
+				<!-- Slack -->
 				<section>
 					<section>
 						<img height="180px" style="border:0 solid" src="https://www.stickpng.com/assets/images/5cb480b85f1b6d3fbadece78.png"/>
@@ -39,17 +41,143 @@
 					<section>Test vertical slide 1 </section>
 					<section>Test vertical slide 2 </section>
 				</section>
+				<!-- Netflix Reacting to Failure -->
 				<section>
-					<p class="fragment grow">grow</p>
-					<p class="fragment shrink">shrink</p>
-					<p class="fragment fade-out">fade-out</p>
-					<p class="fragment fade-up">fade-up (also down, left and right!)</p>
-					<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
-					<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
-					<p class="fragment highlight-current-blue">blue only once</p>
-					<p class="fragment highlight-red">highlight-red</p>
-					<p class="fragment highlight-green">highlight-green</p>
-					<p class="fragment highlight-blue">highlight-blue</p>
+					<section>
+						<blockquote>Add image here</blockquote>
+						<p>How did things go right? (Netflix)</p>
+					</section>
+					<section>
+						<h4>Recovery > Prevention</h4>
+						<p class="fragment hightlight-current-blue fade-up">The most important thing we can learn is to build capacity to encounter failure succesfully</p>
+					</section>
+					<section>
+						<h3>3 Pillars of Fallacy</h3>
+						<div> Comprehension</div>
+						<div> Understandability</div>
+						<div> Predictability</div>
+					</section>
+					<section>
+							<table>
+								<thead>
+									<tr>
+										<th class="heading_1">Comprehension</th>
+										<th class="heading_2">Understandability</th>
+										<th class="heading_3">Predictability</th>
+									</tr>
+								</thead>
+								<tbody class="three_quarters_size">
+									<tr>
+										<td>Incidents cannot be fully comprehended.</td>
+										<td>Managing the small stuff does not prevent big incidents.</td>
+										<td>Learning from the last incident will not allow you to predict the next one.</td>
+									</tr>
+									<tr>
+										<td>They are fraught with uncertainty.</td>
+										<td>Incidents are not made up of causes. We do not find them; we construct them.</td>
+										<td>Complex systems are not deterministic.</td>
+									</tr>
+									<tr>
+										<td>Remediation items will contribute to further incidents.</td>
+										<td></td>
+										<td>Their state cannot be precisely or repeatedly foretold.</td>
+									</tr>
+								</tbody>
+					    	</table>
+					</section>
+					<section>
+						<p>Bell Curve of Daily Ops</p>
+						<img src="img/bell_curve_ops.png"/>
+					</section>
+					<section>
+						<p>Usually missed observations</p>
+						<img src="img/invisible.png"/>
+					</section>
+					<section>
+						<img src="img/netflix_tix.png"/>
+					</section>
+					<section>
+						<h4>9 Factors</h4>
+						<ol>
+							<li>Contributors & Enablers</li>
+							<li>Mitigators</li>
+							<li>Risks</li>
+							<li>Difficulties in Handling</li>
+							<li>Follow-up Items</li>
+							<li>Artifacts</li>
+							<li>Timeline</li>
+							<li>References</li>
+							<li>Open Questions</li>
+						</ol>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Contributors & Enablers</div>	
+						<p>What was the trigger?</p>
+						<p>What was the underlying problem?</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Mitigators</div>	
+						<p>What was done?</p>
+						<p>Who responded to it?</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Risks</div>	
+						<p>What was done?</p>
+						<p>Who responded to it?</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Difficulties in handling</div>	
+						<blockquote>"Islands of Knowledge?"</blockquote>
+						<blockquote>"I didn't know it worked like this?"</blockquote>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Follow-up Items</div>	
+						<p>What should we do to recover?</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Artifacts</div>	
+						<p>A report of the incident and steps taken to fix it?</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Timeline</div>	
+						<p>Note down each action taken at each timestamp</p>
+						<p>A better understanding of the change brought to the service</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">References</div>	
+						<p>What did we refer to to fix the issue?</p>
+					</section>
+					<section>
+						<div class="heading_1 three_halfs_size">Open Questions</div>	
+						<p>Active discussions within the team for the decisions made</p>
+						<p>Justify and ask why were the actions taken?</p>
+					</section>
+					<section>
+						<h2>Final Takeaways</h3>
+					    <p>Recovery > Prevention.</p>
+						<p>There is no root cause.</p>
+						<p>Stop reporting on the nines.</p>
+						<p>Learn how things go right.</p>
+					</section>
+					<section>
+						<p>Read more "surprises" at <a href="http://continuous.wtf">continuous.wtf</a></p>
+					</section>
+				</section>
+				<!-- Test -->
+				<section>
+					<section> List of fragments below</section>
+					<section>
+						<!-- <p class="fragment grow">grow</p> -->
+						<!-- <p class="fragment shrink">shrink</p> -->
+						<!-- <p class="fragment fade-out">fade-out</p> -->
+						<!-- <p class="fragment fade-up">fade-up (also down, left and right!)</p> -->
+						<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+						<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+						<p class="fragment highlight-current-blue">blue only once</p>
+						<!-- <p class="fragment highlight-red">highlight-red</p> -->
+						<!-- <p class="fragment highlight-green">highlight-green</p> -->
+						<!-- <p class="fragment highlight-blue">highlight-blue</p> -->
+					</section>
 				</section>
 			</div>
 		</div>

@@ -1,0 +1,22 @@
+.half_size {
+   font-size: 50%
+}
+.three_quarters_size{
+   font-size: 75%
+}
+
+.three_halfs_size{
+   font-size:150%
+}
+
+.heading_1{
+    color: #268ddd;
+}
+
+.heading_2{
+    color: #268aaa;
+}
+
+.heading_3{
+    color: #268555;
+}
