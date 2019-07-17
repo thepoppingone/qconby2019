@@ -43,6 +43,8 @@
   "license": "MIT",
   "dependencies": {
     "diff": "^3.5.0",
-    "extend": "^3.0.2"
+    "extend": "^3.0.2",
+    "lodash": "^4.17.13",
+    "lodash.mergewith": "^4.6.2"
   }
 }
